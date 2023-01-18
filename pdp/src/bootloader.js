@@ -4,4 +4,7 @@ import "./index.css";
 
 import App from "./App.vue";
 
-createApp(App).mount("#app");
+import store from "home/store"
+
+
+createApp(App).use(store).mount("#app");

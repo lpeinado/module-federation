@@ -52,6 +52,7 @@ module.exports = {
       exposes: { 
                 "./Header": "./src/components/Header", 
                  "./Footer": "./src/components/Footer",
+                 "./store": "./src/store/counter.js",
                 },
       shared: require("./package.json").dependencies,
     }),
