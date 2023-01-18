@@ -1,11 +1,18 @@
 <template>
   <div class="home-header">
-    This is the HOME header component
+    This is the HOME header component and count..
+    <span>{{ count }}</span>
   </div>
 </template>
 
-<script setup>
-
+<script>
+export default {
+  computed:{
+    count(){
+      return this.$store?.state?.count ?? 0;
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

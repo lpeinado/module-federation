@@ -1,6 +1,6 @@
 <template>
   <div class="home-footer">
-    This is the HOME Footer component
+    This is the HOME Footer
   </div>
 </template>
 
